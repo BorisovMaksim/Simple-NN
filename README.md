@@ -57,7 +57,10 @@ $$\left[D_{h(x_0)} g \right] \left(\left[D_{x_0}h \right] (x-x_0)\right) = \lang
 
 # Backpropagation
 
-$$ \Large  \mathcal{L}(A^{[3]}, Y) = -\frac{1}{m} \sum_{i=1}^{m}y_i log(A^{[3]}_i) + (1 - y_i) log(1 - A^{[3]}_i) = -\frac{1}{m}( Y^T log(A^{[3]}) + (1 - Y)^T log(1 - A^{[3]})) $$
+$$ \Large  \mathcal{L}(A^{[3]}, Y) = -\frac{1}{m} \sum_{i=1}^{m}y_i log(A^{[3]}_i) + (1 - y_i) log(1 - A^{[3]}_i) = 
+$$ 
+
+$$\Large  = -\frac{1}{m}( Y^T log(A^{[3]}) + (1 - Y)^T log(1 - A^{[3]})) $$
 
 $$ \Large  A^{[3]}= Sigmoid(Z^{[3]})$$
 
