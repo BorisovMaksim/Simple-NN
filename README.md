@@ -81,4 +81,8 @@ $$ \Large  A^{[3]}= Sigmoid(Z^{[3]})$$
 - $\frac{\partial \mathcal{L}}{\partial W^{[1]}} = \frac{1}{m} np.heaviside(Z_{0}^{[1]}, 0) \odot W_{0}^{[2]T}  np.heaviside(Z_{0}^{[2]}, 0) \odot  W_{0}^{[3]T} (A_{0}^{[3]} - Y )  A_{0}^{[0]T}$ 
 - $\frac{\partial \mathcal{L}}{\partial b^{[1]}} = \frac{1}{m} np.sum(np.heaviside(Z_{0}^{[1]}, 0) \odot W_{0}^{[2]T}  np.heaviside(Z_{0}^{[2]}, 0) \odot  W_{0}^{[3]T} (A_{0}^{[3]} - Y ), axis=1, keepdims=True)$ 
    
+   
+![alt text](https://github.com/BorisovMaksim/Simple-NN/blob/master/images/simple_DNN_loss_plot.png?raw=true)
+
+
 
