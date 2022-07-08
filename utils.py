@@ -82,6 +82,7 @@ def plot_loss(losses_train, losses_test):
     plt.xlabel('num_iter')
     plt.ylabel('Log loss')
     plt.legend()
-    plt.show()
+    plt.savefig("./images/simple_DNN_loss_plot.png")
+
 
 
